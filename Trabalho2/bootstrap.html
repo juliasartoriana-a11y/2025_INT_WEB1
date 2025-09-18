@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>História e Cultura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .navbar-nav a {
+      cursor: pointer;
+    }
+    .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+      width: 100%;
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">História & Cultura</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#apresentacao">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+        <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div style="height: 56px;"></div>
+
+<div id="carouselHistoria" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://picsum.photos/id/1011/1200/400" class="d-block w-100" alt="Imagem História 1" />
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+        <h5>Patrimônios Históricos</h5>
+        <p>Descubra monumentos e locais que marcaram a história.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/id/1018/1200/400" class="d-block w-100" alt="Imagem Cultura 2" />
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+        <h5>Cultura Viva</h5>
+        <p>Tradições e manifestações culturais de todo o mundo.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/id/1025/1200/400" class="d-block w-100" alt="Imagem História 3" />
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+        <h5>Legado e Conhecimento</h5>
+        <p>Preservando o passado para o futuro.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselHistoria" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselHistoria" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Próximo</span>
+  </button>
+</div>
+
+<section id="apresentacao" class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h2>Sobre Nosso trabalho </h2>
+      <p>
+        A gente é um portal feito pra quem gosta de conhecer mais sobre a história e a cultura dos povos ao redor do mundo.
+        Nosso propósito é dividir curiosidades, tradições e histórias que ajudaram a construir o mundo como ele é hoje.
+      </p>
+      <p>
+        Explore nossos conteúdos, conheça a equipe que ama cultura e história, e abra a mente para novos aprendizados.
+      </p>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="img/mpg2.jpg" alt="Imagem cultura" class="img-fluid rounded" />
+    </div>
+  </div>
+</section>
+
+<section id="servicos" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Nossos Serviços</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-book-half me-2"></i>Conteúdo que ensina de verdade</h5>
+            <p class="card-text">Textos, vídeos e cursos pra você aprender mais sobre história de um jeito fácil e interessante.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-camera-video me-2"></i>Documentários</h5>
+            <p class="card-text">Criamos vídeos que mostram culturas, tradições e histórias de um jeito que dá vontade de assistir até o final.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-people me-2"></i>Workshops e Palestras</h5>
+            <p class="card-text">Participe de eventos presenciais ou online com especialistas apaixonados por história e cultura — uma chance ótima pra aprender e trocar ideias!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="equipe" class="container my-5">
+  <h2 class="text-center mb-4">Nossa Equipe</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card shadow-sm text-center">
+        <img src="img/IMG-20250725-WA0073.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Membro 1" style="width: 150px; height: 150px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Coroline Borges</h5>
+          <p class="card-text text-muted">Historiadora Chefe</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm text-center">
+        <center>
+        <img src="img/3daba3d477e7908e8e790a0c4316ae8d_0.jpeg"card-img-top rounded-circle mx-auto mt-3"  alt="Membro 2" style="width: 150px; height:150px; border-radius: 50%;">
+      </center>
+        <div class="card-body">
+          <h5 class="card-title">Ana Júlia Sartori </h5>
+          <p class="card-text text-muted">Especialista em Cultura</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm text-center">
+        <img src="img/Screenshot_2025-09-04-12-05-33-348_com.instagram.android-edit.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Membro 3" style="width: 150px; height: 150px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Maria Eduarda da Silva </h5>
+          <p class="card-text text-muted">Produtor de Conteúdo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="depoimentos" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Depoimentos</h2>
+    <div id="carouselDepoimentos" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+          <p class="fs-5 fst-italic">"Os conteúdos são excelentes e realmente contribuíram para que eu compreendesse melhor a história do Brasil."</p>
+          <small>- Ana Paula</small>
+        </div>
+        <div class="carousel-item">
+          <p class="fs-5 fst-italic">Gosto muito dos workshops, e a equipe demonstra muita dedicação e paixão pelo que faz.</p>
+          <small>- Lucas Ferreira</small>
+        </div>
+        <div class="carousel-item">
+          <p class="fs-5 fst-italic">Documentários envolventes, que unem emoção e conhecimento. Recomendo demais!</p>
+          <small>- Carla Mendes</small>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+<footer class="py-4">
+  <div class="container d-flex justify-content-between align-items-center">
+    <p class="mb-0">&copy; 2025 História & Cultura</p>
+    <div>
+      <a href="#" class="text-white me-3" aria-label="Facebook"><i class="bi bi-facebook fs-4"></i></a>
+      <a href="#" class="text-white me-3" aria-label="Twitter"><i class="bi bi-twitter fs-4"></i></a>
+      <a href="#" class="text-white me-3" aria-label="Instagram"><i class="bi bi-instagram fs-4"></i></a>
+      <a href="#" class="text-white" aria-label="LinkedIn"><i class="bi bi-linkedin fs-4"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
